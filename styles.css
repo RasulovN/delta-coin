@@ -42,30 +42,25 @@ body {
       padding: 20px 0;
   }
   
-       button {
-      padding: 50px 50px;
-      font-size: 18px;
-      /* background-color: #007bff; */
-      background-image: url('./coin.jpeg');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 130%;
-      background-clip:padding-box;
-      color: #fff;
-      border: none;
-      width: 200px;
-      height: 200px;
-      margin: 5px;
-      border-radius: 100%;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      position: relative; 
-      overflow: hidden;
-  }
-  
-  button:hover {
-      background-color: #0056b3;
-  }
+  .btn {
+    padding: 50px 50px;
+    font-size: 18px;
+    background-image: url('./coin.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 130%;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 100%;
+    cursor:auto;
+    transition: background-color 0.3s ease;
+    position: relative; 
+    overflow: hidden;
+    outline: none; 
+}
   
   .counter {
       position: absolute;
