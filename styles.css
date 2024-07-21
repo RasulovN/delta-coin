@@ -42,7 +42,7 @@ body {
       padding: 20px 0;
   }
   
-  .btn {
+  button {
     padding: 50px 50px;
     font-size: 18px;
     background-image: url('./coin.jpeg');
